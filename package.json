@@ -131,7 +131,8 @@
       "**/?(*.)+(spec|test).js?(x)"
     ],
     "testPathIgnorePatterns": [
-      "/node_modules/"
+      "/node_modules/",
+      "/scripts"
     ],
     "testEnvironment": "jsdom"
   },
