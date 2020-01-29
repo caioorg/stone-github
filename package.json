@@ -90,7 +90,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
-      "pre-push": "yarn test:coverage"
+      "pre-push": "yarn test"
     }
   },
   "browserslist": {
