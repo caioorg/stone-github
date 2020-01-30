@@ -9,7 +9,7 @@ export const routes = {
     exact: true
   },
   DETAILS: {
-    path: '/usuario/:user/repositorio',
+    path: '/user/:user/repository',
     component: Repo,
     exact: true
   }

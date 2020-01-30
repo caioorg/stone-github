@@ -1,5 +1,6 @@
 import React from 'react'
+import { SearchUser } from '@/components/molecules'
 
-export default function Home() {
-  return <div />
-}
+const Home = () => <SearchUser />
+
+export default Home
