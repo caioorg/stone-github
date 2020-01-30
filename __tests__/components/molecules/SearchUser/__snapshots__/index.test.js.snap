@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing SearchUser Component Expect to render correctly  1`] = `
+<DocumentFragment>
+  .c5 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.c2 {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #34303f;
+}
+
+.c3 {
+  width: 100%;
+  padding: 20px 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 0;
+  font-size: 20px;
+  color: #5e5e6a;
+  font-family: 'PT Sans Narrow',sans-serif;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #5e5e6a61;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.c3::-moz-placeholder {
+  color: #5e5e6a61;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.c3:-ms-input-placeholder {
+  color: #5e5e6a61;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.c3::placeholder {
+  color: #5e5e6a61;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.c3:focus {
+  border: 0;
+}
+
+.c0 {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c1 {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.c4 {
+  width: 60px;
+  height: 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #e02e41;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.c4:hover {
+  background: #bb2939;
+}
+
+.c4 svg {
+  fill: #fff;
+}
+
+<div
+    class="c0"
+  >
+    <form
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <input
+          class="c3"
+          placeholder="What is your GitHub user?"
+        />
+      </div>
+      <button
+        class="c4"
+        title="Search User"
+      >
+        <svg
+          class="c5 icon icon-search"
+        >
+          <use
+            xlink:href="test-file-stub#search"
+          />
+        </svg>
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

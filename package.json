@@ -82,7 +82,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
+    "test": "jest",
     "precommit": "pretty-quick --staged"
   },
   "eslintConfig": {
@@ -111,10 +111,13 @@
       "enzyme-to-json/serializer"
     ],
     "moduleNameMapper": {
+      "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__tests__/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__tests__/__mocks__/styleMock.js",
       "@(/.*)$": "<rootDir>/src/$1",
       "#(/.*)$": "<rootDir>/__tests__/$1"
     },
     "modulePathIgnorePatterns": [
+      "__mocks__",
       "initial-configuration.js",
       "setupTests.js"
     ],
@@ -123,9 +126,6 @@
     ],
     "setupFilesAfterEnv": [
       "./__tests__/setupTests.js"
-    ],
-    "transformIgnorePatterns": [
-      "<rootDir>/node_modules/(?!bario-ui-kit)"
     ],
     "testMatch": [
       "**/__tests__/**/*.js?(x)",

@@ -6,7 +6,7 @@ import { appMessages } from '@/helpers'
 import User from '@/api/UserApi'
 import { Container, FormWrapper, Button } from './styled'
 
-const SearchUser = ({ ...props }) => {
+export const SearchUser = ({ ...props }) => {
   const [search, setSearch] = useState('')
   const [isLoading, setIsLoading] = useState(false)
 
