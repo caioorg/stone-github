@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/stone-github/static/js/main.d2069433.chunk.js",
+    "main.js.map": "/stone-github/static/js/main.d2069433.chunk.js.map",
+    "runtime-main.js": "/stone-github/static/js/runtime-main.8bc900ed.js",
+    "runtime-main.js.map": "/stone-github/static/js/runtime-main.8bc900ed.js.map",
+    "static/js/2.2a41abf8.chunk.js": "/stone-github/static/js/2.2a41abf8.chunk.js",
+    "static/js/2.2a41abf8.chunk.js.map": "/stone-github/static/js/2.2a41abf8.chunk.js.map",
+    "index.html": "/stone-github/index.html",
+    "precache-manifest.db878992ae27e153ff06183ffb050932.js": "/stone-github/precache-manifest.db878992ae27e153ff06183ffb050932.js",
+    "service-worker.js": "/stone-github/service-worker.js",
+    "static/js/2.2a41abf8.chunk.js.LICENSE": "/stone-github/static/js/2.2a41abf8.chunk.js.LICENSE",
+    "static/media/404.png": "/stone-github/static/media/404.154ae504.png",
+    "static/media/sprite.svg": "/stone-github/static/media/sprite.bab8afa4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bc900ed.js",
+    "static/js/2.2a41abf8.chunk.js",
+    "static/js/main.d2069433.chunk.js"
+  ]
+}
