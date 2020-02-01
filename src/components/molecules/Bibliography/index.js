@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { withRouter } from 'react-router-dom'
+import { withRouter, Link } from 'react-router-dom'
 import User from '@/api/UserApi'
-import { Label, Row } from '@/components/atoms'
+import { Label, Row, Icon } from '@/components/atoms'
 
 import { Wrapper, Container, Image } from './styled'
 
@@ -13,10 +13,12 @@ const Bibliography = ({ ...props }) => {
     })
   }, [props.match.params.user])
 
-  console.log(bibliography.email)
-
   return (
     <Wrapper>
+      <Link to="/">
+        <Icon id="arrow-left" small />
+        Pesquisar Novamente
+      </Link>
       <Container>
         {bibliography.avatar_url && (
           <Row>

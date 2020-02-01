@@ -3,6 +3,20 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   width: 60%;
   margin: 0 auto;
+
+  a {
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+
+    svg {
+      fill: #ffffff;
+      margin-right: 10px;
+    }
+  }
 `
 
 export const Container = styled.div`
@@ -13,6 +27,7 @@ export const Container = styled.div`
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
+  background: #ffffff;
 `
 export const Image = styled.img`
   width: 100%;

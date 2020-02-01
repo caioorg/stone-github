@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   display: inline-block;
-  width: ${({ width = '100%' }) => width};
+  width: ${({ width = '100%' }) => `${width}%`};
   position: relative;
-  border-bottom: 2px solid #34303f;
+  vertical-align: top;
 `
 
 export const Label = styled.label`

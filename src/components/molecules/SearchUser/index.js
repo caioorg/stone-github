@@ -51,7 +51,12 @@ export const SearchUser = ({ ...props }) => {
       {isLoading && <Loader />}
       <Container>
         <FormWrapper onSubmit={e => onHandleChange(e)}>
-          <Input onChange={e => setSearch(e)} placeholder={appMessages.search.placeholder} />
+          <Icon id="github" />
+          <Input
+            width={80}
+            onChange={e => setSearch(e)}
+            placeholder={appMessages.search.placeholder}
+          />
           <Button title="Search User" onClick={e => onHandleChange(e)}>
             <Icon id="search" small />
           </Button>

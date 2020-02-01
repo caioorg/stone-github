@@ -19,7 +19,6 @@ class User {
     let status = {}
 
     await instance.get(`/users/${user}`).then(e => {
-      console.log(e.data)
       if (e.status === 200) {
         status = {
           error: false,
@@ -49,7 +48,6 @@ class User {
     await instance
       .get(`/users/${user}/repos`)
       .then(e => {
-        console.log(e.data)
         if (e.status === 200) status = { error: false, data: e.data }
       })
       .catch(err => {

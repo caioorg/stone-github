@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+import bg from '@/assets/images/bg.jpg'
 
-export const Container = styled.section``
+export const Container = styled.section`
+  background: url(${bg});
+  background-repeat: no-repeat;
+  background-size: cover;
+`
 
 export const First = styled.div`
   width: calc(30% - 180px);

@@ -16,7 +16,7 @@ const styles = css`
     position: absolute;
     top: 52%;
     left: 50%;
-    color: #bb2939;
+    color: #000000;
     width: 100px;
     height: 30px;
     margin: -7px 0 0 -45px;
@@ -69,8 +69,8 @@ const styles = css`
 
   #loading-content:before {
     border: 3px solid transparent;
-    border-top-color: #bb2939;
-    border-bottom-color: #bb2939;
+    border-top-color: #6557a2;
+    border-bottom-color: #6557a2;
     border-radius: 50%;
     -webkit-animation: loader 3s linear infinite;
     -moz-animation: loader 2s linear infinite;
@@ -80,8 +80,8 @@ const styles = css`
 
   #loading-content:after {
     border: 3px solid transparent;
-    border-top-color: #000000;
-    border-bottom-color: #000000;
+    border-top-color: #e5af8b;
+    border-bottom-color: #e5af8b;
     border-radius: 50%;
     -webkit-animation: loader 1.5s linear infinite;
     animation: loader 1.5s linear infinite;

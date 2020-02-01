@@ -12,9 +12,11 @@ export const Card = styled.a`
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.68);
   border-radius: 5px;
   padding: 20px;
+  border: 0;
   transition: all 500ms cubic-bezier(0.25, 0.1, 0.25, 1);
   min-height: 310px;
   text-decoration: none;
+  background: #ffffff;
 
   .icon-star {
     fill: #ffcc00;
@@ -30,7 +32,6 @@ export const Card = styled.a`
     transform: translateY(-10px);
     cursor: pointer;
     box-shadow: 0 15px 15px -5px rgba(102, 102, 102, 0.1);
-    border: 2px dotted #aaaaaa;
   }
 `
 
