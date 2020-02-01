@@ -75,7 +75,6 @@ exports[`Testing SearchUser Component Expect to render correctly  1`] = `
 
 .c1 {
   margin-bottom: 20px;
-  width: 40%;
   margin: 0 auto;
   position: relative;
   top: 50%;
@@ -99,6 +98,67 @@ exports[`Testing SearchUser Component Expect to render correctly  1`] = `
 
 .c5 svg {
   fill: #fff;
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    width: 70%;
+  }
+}
+
+@media (min-width:320px) {
+  .c1 {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .c1 input {
+    padding: 20px;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 70%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    width: 60%;
+  }
+
+  .c1 input {
+    padding: 20px 40px;
+  }
+}
+
+@media (min-width:1440px) {
+  .c1 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c5 {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    width: auto;
+    margin-left: 10px;
+    margin-top: 0;
+  }
 }
 
 <div
