@@ -1,10 +1,19 @@
 import styled from 'styled-components'
+import { media } from '@/helpers/styles'
 
 export const Wrapper = styled.div`
   display: inline-block;
   width: ${({ width = '100%' }) => `${width}%`};
   position: relative;
   vertical-align: top;
+
+  ${media.mobile`
+    width: 100%;
+  `}
+
+  ${media.tablet`
+    width: 70%;
+  `}
 `
 
 export const Label = styled.label`

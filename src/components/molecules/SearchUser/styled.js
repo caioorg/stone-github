@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { media } from '@/helpers/styles'
 import bg from '@/assets/images/bg.jpg'
 
 export const Container = styled.div`
@@ -16,11 +17,35 @@ export const Container = styled.div`
 
 export const FormWrapper = styled.form`
   margin-bottom: 20px;
-  width: 40%;
   margin: 0 auto;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+
+  ${media.mobile`
+    width: 100%;
+    padding: 0 10px;
+
+    input {
+      padding: 20px;
+    }
+  `}
+
+  ${media.tablet`
+    width: 70%;
+  `}
+
+  ${media.desktop`
+    width: 60%;
+
+    input {
+      padding: 20px 40px;
+    }
+  `}
+
+  ${media.monitor`
+    width: 40%;
+  `}
 `
 
 export const Button = styled.button`
@@ -30,6 +55,18 @@ export const Button = styled.button`
   border: 0;
   background-color: #6557a2;
   cursor: pointer;
+
+  ${media.mobile`
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  `}
+
+  ${media.tablet`
+    width: auto;
+    margin-left: 10px;
+    margin-top: 0;
+  `}
 
   &:hover {
     background: #e5af8b;
