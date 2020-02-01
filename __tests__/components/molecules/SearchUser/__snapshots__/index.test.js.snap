@@ -2,21 +2,26 @@
 
 exports[`Testing SearchUser Component Expect to render correctly  1`] = `
 <DocumentFragment>
-  .c5 {
+  .c2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.c6 {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
   height: 20px;
 }
 
-.c2 {
+.c3 {
   display: inline-block;
-  width: 100%;
+  width: 80%;
   position: relative;
-  border-bottom: 2px solid #34303f;
+  vertical-align: top;
 }
 
-.c3 {
+.c4 {
   width: 100%;
   padding: 20px 40px;
   background: #ffffff;
@@ -27,35 +32,49 @@ exports[`Testing SearchUser Component Expect to render correctly  1`] = `
   font-family: 'PT Sans Narrow',sans-serif;
 }
 
-.c3::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #5e5e6a61;
   opacity: 1;
   font-weight: bold;
 }
 
-.c3::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #5e5e6a61;
   opacity: 1;
   font-weight: bold;
 }
 
-.c3:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #5e5e6a61;
   opacity: 1;
   font-weight: bold;
 }
 
-.c3::placeholder {
+.c4::placeholder {
   color: #5e5e6a61;
   opacity: 1;
   font-weight: bold;
 }
 
-.c3:focus {
+.c4:focus {
   border: 0;
 }
 
 .c0 {
+  height: 100%;
+  background: url(test-file-stub);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.c0 .icon-github {
+  fill: #fff;
+  margin-bottom: 50px;
+}
+
+.c1 {
+  margin-bottom: 20px;
   width: 40%;
   margin: 0 auto;
   position: relative;
@@ -65,31 +84,20 @@ exports[`Testing SearchUser Component Expect to render correctly  1`] = `
   transform: translateY(-50%);
 }
 
-.c1 {
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.c4 {
-  width: 60px;
-  height: 40px;
-  border-radius: 50px;
+.c5 {
+  margin-left: 20px;
+  padding: 20px 40px;
+  border-radius: 10px;
   border: 0;
-  background-color: #e02e41;
-  position: absolute;
-  right: 40px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  background-color: #6557a2;
   cursor: pointer;
 }
 
-.c4:hover {
-  background: #bb2939;
+.c5:hover {
+  background: #e5af8b;
 }
 
-.c4 svg {
+.c5 svg {
   fill: #fff;
 }
 
@@ -99,20 +107,28 @@ exports[`Testing SearchUser Component Expect to render correctly  1`] = `
     <form
       class="c1"
     >
+      <svg
+        class="c2 icon icon-github"
+      >
+        <use
+          xlink:href="test-file-stub#github"
+        />
+      </svg>
       <div
-        class="c2"
+        class="c3"
+        width="80"
       >
         <input
-          class="c3"
+          class="c4"
           placeholder="What is your GitHub user?"
         />
       </div>
       <button
-        class="c4"
+        class="c5"
         title="Search User"
       >
         <svg
-          class="c5 icon icon-search"
+          class="c6 icon icon-search"
         >
           <use
             xlink:href="test-file-stub#search"
