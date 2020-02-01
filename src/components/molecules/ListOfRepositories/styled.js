@@ -1,12 +1,12 @@
 import styled from 'styled-components'
+import { media } from '@/helpers/styles'
 
 export const Container = styled.div`
   width: 100%;
   margin-top: 55px;
 `
+
 export const Card = styled.a`
-  width: calc(100% / 3 - 40px);
-  margin: 0 20px 20px;
   display: inline-block;
   vertical-align: top;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.68);
@@ -17,6 +17,21 @@ export const Card = styled.a`
   min-height: 310px;
   text-decoration: none;
   background: #ffffff;
+
+  ${media.mobile`
+    width: 100%;
+    margin: 0 0 20px;
+  `}
+
+  ${media.tablet`
+    width: calc(100% / 2 - 40px);
+    margin: 0 20px 20px;
+  `}
+  
+  ${media.monitor`
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px 20px;
+  `}
 
   .icon-star {
     fill: #ffcc00;

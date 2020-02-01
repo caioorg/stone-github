@@ -1,8 +1,13 @@
 import styled from 'styled-components'
+import { media } from '@/helpers/styles'
 
 export const Wrapper = styled.div`
   width: 60%;
   margin: 0 auto;
+
+  ${media.mobile`
+    width: 100%;
+  `}
 
   a {
     margin-top: 20px;
@@ -20,14 +25,35 @@ export const Wrapper = styled.div`
 `
 
 export const Container = styled.div`
-  width: 15%;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.68);
   border-radius: 10px;
   padding: 20px;
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
   background: #ffffff;
+
+  ${media.mobile`
+    width: 100%;
+    position: relative;
+    top: 0;
+    transform: initial;
+    margin-top: 20px;
+  `}
+
+  ${media.tablet`
+    width: 60%;
+    margin: 20px auto;
+  `}
+
+  ${media.desktop`
+    width: 50%;
+  `}
+
+  ${media.monitor`
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20%;
+  `}
+  
 `
 export const Image = styled.img`
   width: 100%;
