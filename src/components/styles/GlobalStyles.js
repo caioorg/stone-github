@@ -1,4 +1,5 @@
 import { createGlobalStyle, css } from 'styled-components'
+import { media } from '@/helpers/styles'
 
 const styles = css`
   *,
@@ -28,6 +29,15 @@ const styles = css`
     text-align: right !important;
     top: 50px !important;
     left: auto !important;
+
+    ${media.mobile`
+      width: 80% !important;
+      right: 20px !important;
+    `}
+
+    ${media.monitor`
+      width: 60% !important;
+    `}
   }
 
   #notification-wrapper .toast-notification span {
