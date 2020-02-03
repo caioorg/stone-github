@@ -15,7 +15,7 @@ const Bibliography = ({ ...props }) => {
 
   return (
     <Wrapper>
-      <Link to="/">
+      <Link className="to-back" to="/">
         <Icon id="arrow-left" small />
         Pesquisar Novamente
       </Link>
