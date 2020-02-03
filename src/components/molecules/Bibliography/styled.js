@@ -9,6 +9,10 @@ export const Wrapper = styled.div`
     width: 100%;
   `}
 
+  .to-back {
+    position: fixed;
+  }
+
   a {
     margin-top: 20px;
     color: #fff;
