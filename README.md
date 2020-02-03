@@ -45,3 +45,8 @@ If you want to see the application working go to this [link](https://stone-githu
 ## License
 
 MIT
+
+## Credits
+
+I would like to thank my friend Lucas for helping me test and validate the layout, giving tips on how to improve the layout and use your experience in the area!
+profile[link](https://www.linkedin.com/in/lucas-carvalho-da-silva/)
